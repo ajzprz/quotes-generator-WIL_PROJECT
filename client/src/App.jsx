@@ -1,7 +1,13 @@
+import BackgroundVideo from "./components/BackgroundVideo";
+import QuoteContainer from "./components/QuoteContainer";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div >
+      <div className="url h-[100vh]  w-[100%] flex justify-center items-center">
+        <BackgroundVideo/>
+        <QuoteContainer/>
+      </div>
+    </div>
+  );
 }
