@@ -1,13 +1,15 @@
 import BackgroundVideo from "./components/BackgroundVideo";
+import Footer from "./components/Footer";
 import QuoteContainer from "./components/QuoteContainer";
 
 export default function App() {
   return (
-    <div >
-      <div className="url h-[100vh]  w-[100%] flex justify-center items-center">
-        <BackgroundVideo/>
-        <QuoteContainer/>
-      </div>
+    <div>
+      <BackgroundVideo />
+      <main className="h-[90vh] relative flex flex-col justify-center items-center ">
+        <QuoteContainer />
+      </main>
+      <Footer />
     </div>
   );
 }
