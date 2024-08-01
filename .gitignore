@@ -14,6 +14,7 @@ dist-ssr
 
 /api/node_modules
 /client/node_modules
+/client/.env
 
 
 # Editor directories and files
